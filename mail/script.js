@@ -12,9 +12,6 @@ let emailCheck = 0;
 for (let i=0; i < emailList.length; i++) {
     if (emailList[i] === userEmail) {
         emailCheck = 1;
-        break;
-    } else {
-        emailCheck = 0;
     }
 };
 
